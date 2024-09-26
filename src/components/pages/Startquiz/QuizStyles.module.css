@@ -1,0 +1,146 @@
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #fafbfe;
+  min-height: 88px;
+  width: 100%;
+  padding: 16px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #0ea5e9;
+  font: 400 18px Gilroy-Bold, -apple-system, Roboto, Helvetica, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.logoImage {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.logoText {
+  margin-top: 8px;
+}
+
+.logoutButton {
+  border-radius: 8px;
+  border: 2px solid #afafaf;
+  padding: 12px 24px;
+  background: none;
+  color: #afafaf;
+  font: 500 12px Roboto, sans-serif;
+  cursor: pointer;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 20px;
+}
+
+.introSection {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 96px 80px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1146px;
+  width: 100%;
+}
+
+.introImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.introTitle {
+  color: #0ea5e9;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.introDescription {
+  color: #475569;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.startButton {
+  margin-top: 32px;
+  padding: 8px 16px;
+  background-color: #0ea5e9;
+  color: #f8fafc;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.alertContainer {
+  background-color: #fef3c7;
+  border-radius: 12px;
+  padding: 12px 24px;
+  margin-top: 86px;
+  max-width: 517px;
+  width: 100%;
+}
+
+.alertContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alertIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.alertText {
+  color: #d97706;
+  line-height: 28px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 16px 20px;
+  }
+
+  .introSection {
+    padding: 48px 20px;
+  }
+
+  .introTitle {
+    margin-top: 40px;
+  }
+
+  .alertContainer {
+    margin-top: 40px;
+  }
+}
